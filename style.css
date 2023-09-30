@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+}
+
+header {
+    height: 63.091px;
+    margin: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navIcons {
+    gap: 34px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navIcons a {
+    color: #000;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    text-decoration-color: #000;
+}
+
+.navIcons a:hover {
+    color: #fde401;
+    transition: 0.25s all;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+
+.rightNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+.signUp {
+    width: 115.501px;
+    height: 41.406px;
+    flex-shrink: 0;
+    border-radius: 23px;
+    border: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signUp:hover {
+    width: 115.501px;
+    height: 41.406px;
+    flex-shrink: 0;
+    border-radius: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.25s ease-in-out;
+    offset: -2px;
+    background-color: #ffed47;
+
+}
+
+.signUp a {
+    margin: 20px 0px;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+
+
+/* hero section */
+.wrapper {
+    width: 100%;
+    background-image: url(/images/bgImage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 745px;
+}
+
+.hero {
+    height: 100%;
+    
+    margin: 0px 50px; 
+}
+.text{
+    margin-top: 70px;
+}
+.text h2 {
+    color: #000;
+    font-family: Inter;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.text h2 span {
+    color: #FFC700;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.text h4 {
+    border-left: 4px solid black;
+    padding-left: 36px;
+
+    width: 483px;
+    color: #000;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.text h4 span {
+    color: #E9A409;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.yellowButton {
+    margin-top: 60px;
+    width: 200px;
+    height: 60px;
+
+    border-radius: 6px;
+    background: #FFB000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+
+}
+
+.yellowButton:hover {
+    width: 200px;
+    height: 60px;
+
+    border-radius: 6px;
+    background: #ffc13a;
+
+    transition: 0.2s ease-in-out;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yellowButton{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+
+/* info */
+.info{
+    padding-top: 75px;
+    background-image: url(/images/BG2100.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+}
+
+.info-heading h6{
+    color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 35px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.info-heading p{ 
+    color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 100;
+line-height: normal;
+}
+.info-desc{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.info-desc-desc p{
+    color: #000;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+width: 551px;
+}
+.info-desc-desc{
+    width: 571px;
+}
+.info-desc-desc ul li{ 
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+
+.info-right{
+    margin-left: 100px;
+}
