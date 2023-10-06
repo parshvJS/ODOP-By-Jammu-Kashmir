@@ -13,6 +13,13 @@ header {
 
 }
 
+.center{
+    margin-top: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 .navIcons {
     gap: 34px;
     display: flex;
@@ -97,12 +104,14 @@ header {
 
 .hero {
     height: 100%;
-    
-    margin: 0px 50px; 
+
+    margin: 0px 50px;
 }
-.text{
+
+.text {
     margin-top: 70px;
 }
+
 .text h2 {
     color: #000;
     font-family: Inter;
@@ -173,7 +182,7 @@ header {
     align-items: center;
 }
 
-.yellowButton{
+.yellowButton {
     color: #FFF;
     font-family: Inter;
     font-size: 17px;
@@ -185,50 +194,59 @@ header {
 
 
 /* info */
-.info{
+.info {
     padding-top: 75px;
-    background-image: url(/images/BG2100.png);
-    background-size: cover;
+    background-image: url(./images/BG2100.png);
+    background-size: contain;
     background-repeat: no-repeat;
- 
+
 }
 
-.info-heading h6{
+.info-heading h6 {
     color: #000;
-text-align: center;
-font-family: Inter;
-font-size: 35px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+    text-align: center;
+    font-family: Inter;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
-.info-heading p{ 
+
+.info-heading p {
     color: #000;
-text-align: center;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 100;
-line-height: normal;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
 }
-.info-desc{
+
+.info-desc {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
-.info-desc-desc p{
-    color: #000;
-font-family: Inter;
-font-size: 32px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-width: 551px;
+
+.info-desc img {
+    margin-left: -50px;
 }
-.info-desc-desc{
+
+.info-desc-desc p {
+    color: #000;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 551px;
+}
+
+.info-desc-desc {
     width: 571px;
 }
-.info-desc-desc ul li{ 
+
+.info-desc-desc ul li {
     color: #000;
     font-family: Inter;
     font-size: 24px;
@@ -237,6 +255,134 @@ width: 551px;
     line-height: normal;
 }
 
-.info-right{
+.info-right {
     margin-left: 100px;
+}
+
+
+
+/* Product card */
+.products {
+    margin-top: 70px;
+margin-right: 50px;
+margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+background-image: url(./images/product-img.png);
+background-size: calc(contain-100px);
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.product-header {
+    
+display: flex;
+justify-content: center;
+align-items: centerss;
+    color: #ECA608;
+    font-family: Inter;
+    font-size: 38px;
+    font-weight: 800;
+    line-height: normal;
+}
+.product-card-top,.product-card-bottom{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.product-card-top a,.product-card-bottom a{
+text-decoration: none;
+}
+.product-card-top{
+    margin-top: 35px;
+}
+.product-card-bottom{
+    margin-top: 21px;
+}
+.product-card {
+    width: 350px;
+    height: 452px;
+    border-radius: 27px;
+    background: #FFF;   
+     box-shadow: 4px 4px 14px 1px rgba(0, 0, 0, 0.50);
+}
+.product-card:hover{
+    transition: 0.3s ease-in-out;
+    width: 350px;
+    height: 452px;
+    border-radius: 27px;
+    background: #ebebeb;   
+     box-shadow: 6px 6px 16px 2px rgba(125, 125, 125, 0.5);
+}
+.product-card img{
+    width: 350px;
+    height: 232.322px;
+    border-radius: 27px 27px 0px 0px;
+}
+.product-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.pro-desc{
+width: fit-content;
+margin-top: 25px;
+    color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.product-card h3{
+    color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+text-decoration: none;
+
+}
+
+.price{
+    margin-top: 25px;
+    row-gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mrp{
+    margin-right:10px;
+    color: #000;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.original-p{
+    margin-right: 10px;
+
+    color: #8A8A8A;
+font-family: Inter;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.discount{
+    color: #F00;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
 }
